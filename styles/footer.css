@@ -1,0 +1,87 @@
+/* Footer section */
+.footer {
+  background-color: #11122b;
+  color: #cbcbcb;
+  font-family: "Ubuntu Condensed", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  margin-top: -4px;
+}
+
+.footer > .footer-image img {
+  width: 180px;
+  height: 100%;
+  /* filter: brightness(50%); */
+  opacity: 0.5;
+}
+
+.footer > .footer-contact-hours span {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1em;
+  letter-spacing: 2px;
+  
+  /* font-family: 'Ubuntu Condensed', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 2px;
+  width: 275px; */
+}
+
+.footer > .footer-contact-hours > .hours {
+  font-size: 0.8em;
+  color: #cea135;
+  text-transform: uppercase; 
+
+  /* font-family: 'Ubuntu Condensed', sans-serif;
+  text-transform: uppercase; 
+  color: #cea135;
+  font-size: 0.8em;
+  letter-spacing: 2px; */
+}
+
+.footer > .links-wrapper {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 400px;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px; */
+}
+
+/* Social section */
+
+.footer > .social-media-icons {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 1.5em; */
+}
+
+.footer > .social-media-icons a {
+  font-size: 1.5em;
+  color: #cbcbcb;
+  transition: 0.5s;
+}
+
+.footer > .social-media-icons a:hover {
+  color: #cea135;
+}
+
+.footer > .copyright {
+  margin-bottom: 40px;
+  font-size: 0.7em;
+  color: #858585;
+}
